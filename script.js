@@ -66,7 +66,7 @@ function type() {
 if (i < quote.length) {
 text.innerHTML += quote[i];
 i++;
-setTimeout(type, 40);
+setTimeout(type, 25);
 }
 }
 type();
