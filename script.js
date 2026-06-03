@@ -72,7 +72,7 @@ setTimeout(type, 25);
 type();
 
 
-setTimeout(() => popup.style.display = "none", 29000);
+setTimeout(() => popup.style.display = "none", 20000);
 
 found++;
 if (found === total) {
