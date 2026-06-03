@@ -66,7 +66,7 @@ function type() {
 if (i < quote.length) {
 text.innerHTML += quote[i];
 i++;
-setTimeout(type, 110);
+setTimeout(type, 45);
 }
 }
 type();
@@ -116,7 +116,7 @@ function type() {
 if (i < text.length) {
 box.innerHTML += text[i];
 i++;
-setTimeout(type, 85);
+setTimeout(type, 55);
 }
 }
 type();
